@@ -1,0 +1,85 @@
+.back{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.calculadora{
+    background-color: rgb(244, 234, 242);
+    width: 300px;
+    height: 405px;
+    padding: 14px;
+}
+
+.boton{
+    background-color: rgb(252, 251, 253);
+    color: black;
+    border-color: transparent;
+    min-height: 55px;
+    margin: 1px;
+    outline: 0;
+    box-shadow: transparent;
+    font-size:20px;
+    cursor: pointer;
+    font-family: Segoe UI;
+}
+
+.botonFun{
+    background-color: rgb(247, 242, 250);
+    color: black;
+    border-color: transparent;
+    min-height: 55px;
+    margin: 1px;
+    outline: 0;
+    box-shadow: none;
+    font-size:20px;
+    cursor: pointer;
+    font-family: Segoe UI;
+}
+
+button:active{
+    background-color: rgb(201, 201, 201);
+}
+
+.espacio1{
+    background-color: transparent;
+    color: transparent;
+    border-color: transparent;
+    min-height: 55px;
+    margin: 1px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.espacio2{
+    background-color: white;
+    color: transparent;
+    border-color: transparent;
+    min-height: 55px;
+    margin: 1px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.texto1{
+    background-color: rgb(244, 234, 242);
+    border-color: transparent;
+    text-align: right;
+    font-size: 40px;
+    margin: 1px;
+    height: 60px;
+    font-family: Segoe UI;
+    color: black;
+}
+
+.texto2{
+    background-color: rgb(244, 234, 242);
+    border-color: transparent;
+    text-align: right;
+    font-size: 20px;
+    margin: 1px;
+    height: 40px;
+    font-family: Segoe UI;
+    color: black;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CALCULADORA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./calculadora.css">
+</head>
+<body>
+    <div class="back">
+        <div class="calculadora">
+            <div class="row">
+                <input type="text" id="result" readonly="true" class="texto1" disabled>
+            </div>
+            <div class="row">
+                <input type="text" id="resultAlmacenado" readonly="true" class="texto2" disabled>
+            </div>
+            <div class="row">
+                <button type="button" class="col-sm espacio1" id="A" disabled>.</button>
+                <button type="button" class="col-sm espacio1" id="A" disabled>.</button>
+                <button type="button" class="col-sm botonFun" onclick="borrar()" id="c" value="C">C</button>
+                <button type="button" class="col-sm botonFun" onclick="dividir()" id="/" value="/">/</button>
+            </div>
+            <div class="row">
+                <button type="button" class="col-sm boton" onclick="siete()" id="7" value="7">7</button>
+                <button type="button" class="col-sm boton" onclick="ocho()" id="8" value="8">8</button>
+                <button type="button" class="col-sm boton" onclick="nueve()" id="9" value="9">9</button>
+                <button type="button" class="col-sm botonFun" onclick="multiplicar()" id="X" value="X">x</button>
+            </div>
+            <div class="row">
+                <button type="button" class="col-sm boton" onclick="cuatro()" id="4" value="4">4</button>
+                <button type="button" class="col-sm boton" onclick="cinco()" id="5" value="5">5</button>
+                <button type="button" class="col-sm boton" onclick="seis()"id="6" value="6">6</button>
+                <button type="button" class="col-sm botonFun" onclick="restar()" id="-" value="-">-</button>
+            </div>
+            <div class="row">
+                <button type="button" class="col-sm boton" onclick="tres()" id="3" value="3">3</button>
+                <button type="button" class="col-sm boton" onclick="dos()" id="2" value="2">2</button>
+                <button type="button" class="col-sm boton" onclick="uno()" id="1" value="1">1</button>
+                <button type="button" class="col-sm botonFun" onclick="sumar()" id="+" value="+">+</button>
+            </div>
+            <div class="row">
+                <button type="button" class="col-sm espacio2" id="A" disabled>.</button>
+                <button type="button" class="col-sm boton" onclick="cero()" id="0" value="0">0</button>
+                <button type="button" class="col-sm boton" onclick="coma()" id="," value=",">,</button>
+                <button type="button" class="col-sm botonFun" onclick="calcular()" id="=" value="=">=</button>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="codigoCalculadora.js"></script>
+
+</body>
